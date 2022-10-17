@@ -1,0 +1,134 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    color: black;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+a:visited{
+    color: black;
+}
+
+.home{
+    height: 99vh;
+    background-color: #E1FDFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header{
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #E1FDFF;
+    font-size: 18pt;
+}
+
+.logoDeux{
+    font-size: 18pt;
+    color: red;
+}
+
+main{
+    background-image: linear-gradient(#EAFDFF,#5D81FF);
+
+}
+
+.flexy{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.txt1{
+    font-size: 18pt;
+    margin: auto;
+}
+
+.flexyDeux{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    justify-content: space-around;
+    padding: 30px;
+    font-size: 18pt;
+}
+
+.picture{
+    border: 1px solid #E1FDFF;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.picture>img{
+    width: 100%;
+}
+
+section{
+    padding-top: 40px;
+    background-image: linear-gradient(#5D81FF,#EAFDFF);
+}
+
+section>h2{
+    text-align: center;
+    margin-top: 0;
+    font-size: 24pt;
+}
+
+section>h2:hover{
+    text-decoration: underline;
+    
+    transition: 0.4s;
+
+}
+
+section>h2:hover{
+    color: white;
+    animation-delay: 1s;
+    transition: 1s;
+}
+
+
+.grid{
+    margin-left: 170px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+button{
+    margin-top: 30px;
+    border-radius: 40px;
+    padding: 25px;
+    background-color: #5D81FF;
+    border: 1px solid black;
+    font-size: 18pt;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+footer{
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #E1FDFF;
+    font-size: 18pt;
+   
+}
