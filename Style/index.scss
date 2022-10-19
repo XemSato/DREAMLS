@@ -1,8 +1,26 @@
 
 $font-stack: Helvetica, sans-serif;
-$primary-color: #333;
+$primary-color: rgb(224, 27, 27);
 
 body {
   font: 100% $font-stack;
   color: $primary-color;
+}
+
+
+SYNTAXE SCSS
+header {
+  .logo{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
 }

@@ -1,0 +1,15 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: rgb(224, 27, 27);
+}
+
+SYNTAXE SCSS header .logo {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+SYNTAXE SCSS header a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}/*# sourceMappingURL=index.css.map */
